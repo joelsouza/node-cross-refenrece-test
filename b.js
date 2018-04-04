@@ -2,8 +2,8 @@ const A = require('./a')
 
 class B { 
   static bar () {
+    console.log('B.bar()')
     A.bar()
-    console.log('calling a.foo() from B.bar()')
   }
 }
 
